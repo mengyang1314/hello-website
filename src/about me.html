@@ -8,7 +8,6 @@
     <title>Yeen Meng Yang About Me</title>
 <style>
 body {
-    background-color:lightblue;
     color:blue;
     font-size: 30px
 }
@@ -18,14 +17,25 @@ ul{
 ol{
     list-style-type: upper-roman;
 }
-div.position {
+
+table.first{
+    position: relative;
+    width: 850px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 200px;
+    font-size: 25px;
+}
+tr.second{
     position: absolute;
     top: 0px;
-    left: 0;
-    width: 10px;
-    height: 200px;
-    border: 3px solid rgb(15, 15, 15);
-    background-color:orange
+    left: 0px;
+    width: 5px;
+    height:195px;
+    border: 3px black;
+    background-color: orange;
+
+}
 
 </style>
     
@@ -126,13 +136,14 @@ div.position {
         </tbody>
     </table>
 
-    <table style="border:3px #1d1a1a solid" cellpadding="10" border='1'>
+    <table class="first">
         <tbody>
-            <div class="position">
-            </div>
-            <tr bgcolor="white">
+           <tr class="second">
+            
+            </tr>
+            <tr class="third">
                 <td>
-                    <img src="Images/gantanhao.png"width="40">
+                    <img src="Images/gantanhao.png"width="50">
                 </td>
                 <td>
                     
